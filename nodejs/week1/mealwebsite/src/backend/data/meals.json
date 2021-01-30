@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Indian food in the summer",
+    "maxNumberOfGuests": 5,
+    "description": "A nice night out eating delicious indian food",
+    "createdAt": "2019/12/7 14:34",
+    "price": 67
+  },
+  {
+    "id": 2,
+    "title": "Pâté en croûte de lapin de garenne",
+    "maxNumberOfGuests": 6,
+    "description": "Wild rabbit pie",
+    "createdAt": "2019/12/2 19:34",
+    "price": 98
+  },
+  {
+    "id": 3,
+    "title": "Gelée de caviar à la créme de chou-fleur",
+    "maxNumberOfGuests": 10,
+    "description": "Caviar jelly with cauliflower cream",
+    "createdAt": "2019/12/3 03:34",
+    "price": 64
+  }
+]

@@ -1,0 +1,283 @@
+<<<<<<< HEAD
+#title {
+  border: 2px solid white;
+  background-color: whitesmoke;
+  height: 160px;
+  font-size: 20px;
+}
+
+nav.menu-nav ul li.btn {
+  list-style-type: none;
+  display: inline-block;
+  font-family: sans-serif;
+}
+nav.menu-nav ul li.btn a {
+  text-decoration: none;
+  text-justify: space-around;
+  font-family: sans-serif;
+}
+nav.menu-nav ul li.btn:hover a {
+  color: grey;
+  background-color: black;
+}
+
+h1,
+h6 {
+  margin-left: 200px;
+  font-family: sans-serif;
+}
+h6 {
+  margin-top: 10px;
+  font-style: italic;
+  font-family: sans-serif;
+  color: gray;
+}
+ul {
+  list-style: none;
+  display: flex;
+  font-weight: bold;
+  margin-left: 160px;
+  font-family: sans-serif;
+}
+.h {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+#left {
+  border: 2px solid white;
+  margin-right: 100px;
+  font-family: sans-serif;
+}
+#right {
+  border: 2px solid white;
+  font-family: sans-serif;
+  font-family: sans-serif;
+}
+.box {
+  display: flex;
+  font-family: sans-serif;
+}
+aside {
+  border: 2px solid white;
+  margin-left: 180px;
+  font-family: sans-serif;
+}
+#logo {
+  border: 2px solid white;
+  margin-left: 500px;
+  font-family: sans-serif;
+}
+p {
+  color: grey;
+}
+.log {
+  display: flex;
+  border: 2px solid black;
+  justify-content: center;
+  margin-left: 200px;
+}
+.logo1 {
+  border: 2px solid white;
+  height: 400px;
+  width: 600px;
+  margin-left: 200px;
+}
+h2 {
+  margin-left: 210px;
+}
+footer {
+  background-color: rgb(92, 18, 211);
+  height: 500px;
+  width: 1520px;
+}
+.footer-content {
+  border: 2px solid rgb(92, 18, 211);
+  height: 350px;
+  margin-top: 100px;
+}
+.footer-section {
+  flex: 4;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.find-us {
+  border: 1px solid rgb(92, 18, 211);
+  height: 250px;
+  width: 350px;
+  color: white;
+  font-size: 20px;
+}
+.footer-section-about {
+  border: 1px solid rgb(92, 18, 211);
+  height: 100px;
+  width: 200px;
+  color: white;
+  font-size: 20px;
+  margin-right: 100px;
+}
+.footer-section-archives {
+  border: 1px solid rgb(92, 18, 211);
+  height: 150px;
+  width: 200px;
+  color: white;
+  font-size: 20px;
+}
+.footer-section-navigation {
+  border: 1px solid rgb(92, 18, 211);
+  height: 215px;
+  width: 150px;
+  color: white;
+  font-size: 20px;
+}
+#items {
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+
+=======
+#title {
+  border: 2px solid white;
+  background-color: whitesmoke;
+  height: 160px;
+  font-size: 20px;
+}
+
+nav.menu-nav ul li.btn {
+  list-style-type: none;
+  display: inline-block;
+  font-family: sans-serif;
+}
+nav.menu-nav ul li.btn a {
+  text-decoration: none;
+  text-justify: space-around;
+  font-family: sans-serif;
+}
+nav.menu-nav ul li.btn:hover a {
+  color: grey;
+  background-color: black;
+}
+
+h1,
+h6 {
+  margin-left: 200px;
+  font-family: sans-serif;
+}
+h6 {
+  margin-top: 10px;
+  font-style: italic;
+  font-family: sans-serif;
+  color: gray;
+}
+ul {
+  list-style: none;
+  display: flex;
+  font-weight: bold;
+  margin-left: 160px;
+  font-family: sans-serif;
+}
+.h {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+}
+#left {
+  border: 2px solid white;
+  margin-right: 100px;
+  font-family: sans-serif;
+}
+#right {
+  border: 2px solid white;
+  font-family: sans-serif;
+  font-family: sans-serif;
+}
+.box {
+  display: flex;
+  font-family: sans-serif;
+}
+aside {
+  border: 2px solid white;
+  margin-left: 180px;
+  font-family: sans-serif;
+}
+#logo {
+  border: 2px solid white;
+  margin-left: 500px;
+  font-family: sans-serif;
+}
+p {
+  color: grey;
+}
+.log {
+  display: flex;
+  border: 2px solid black;
+  justify-content: center;
+  margin-left: 200px;
+}
+.logo1 {
+  border: 2px solid white;
+  height: 400px;
+  width: 600px;
+  margin-left: 200px;
+}
+h2 {
+  margin-left: 210px;
+}
+footer {
+  background-color: rgb(92, 18, 211);
+  height: 500px;
+  width: 1520px;
+}
+.footer-content {
+  border: 2px solid rgb(92, 18, 211);
+  height: 350px;
+  margin-top: 100px;
+}
+.footer-section {
+  flex: 4;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.find-us {
+  border: 1px solid rgb(92, 18, 211);
+  height: 250px;
+  width: 350px;
+  color: white;
+  font-size: 20px;
+}
+.footer-section-about {
+  border: 1px solid rgb(92, 18, 211);
+  height: 100px;
+  width: 200px;
+  color: white;
+  font-size: 20px;
+  margin-right: 100px;
+}
+.footer-section-archives {
+  border: 1px solid rgb(92, 18, 211);
+  height: 150px;
+  width: 200px;
+  color: white;
+  font-size: 20px;
+}
+.footer-section-navigation {
+  border: 1px solid rgb(92, 18, 211);
+  height: 215px;
+  width: 150px;
+  color: white;
+  font-size: 20px;
+}
+#items {
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+
+>>>>>>> first commit

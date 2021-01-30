@@ -1,0 +1,7 @@
+onion
+carot
+cabbage
+tomato
+eggplant
+leek
+pepper

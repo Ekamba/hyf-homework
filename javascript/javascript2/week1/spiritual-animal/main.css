@@ -1,0 +1,25 @@
+* {
+    box-sizing: content-box;
+}
+
+#home {
+    margin:10px auto;
+    width: 40%;
+    
+}
+
+input{
+    font-size: 12px;
+    margin: 12px;
+    padding: 12px;
+    width: 100%;
+    background-color: bisque;
+
+} 
+button {
+    font-size: 12px;
+    margin: 12px;
+    padding: 12px;
+    width: 100%;
+    background-color: bisque;
+}

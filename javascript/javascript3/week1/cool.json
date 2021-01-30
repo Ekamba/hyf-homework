@@ -1,0 +1,9 @@
+{
+    "name": "Rehoboth",
+    "age": 20,
+    "car": {
+        "Ford": "msutang-shelby",
+        "Koenigsegg": "Jesko",
+        "Saleen": "s7-Twin-Turbo"
+    }
+}
