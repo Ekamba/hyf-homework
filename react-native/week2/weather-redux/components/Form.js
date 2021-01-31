@@ -4,7 +4,9 @@ import { View, Text, StyleSheet, TextInput, Button } from "react-native";
 const Form = ({ search, onSetSearch, onSubmit }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.heading}>Type a city name to get the weather</Text>
+      <Text style={styles.heading}>
+        Country or city name to get the weather
+      </Text>
       <View>
         <TextInput
           style={styles.input}
