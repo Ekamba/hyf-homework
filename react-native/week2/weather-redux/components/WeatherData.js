@@ -20,6 +20,10 @@ const WeatherData = ({ data }) => {
               uri: `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`,
             }}
           />
+          <View style={styles.weatherDetailsItems}>
+            <Text>Feels like :</Text>
+            <Text style={styles.textSecondary}>{data.main.feels_like} °</Text>
+          </View>
         </View>
         <View style={styles.box}>
           <FontAwesome5 name="temperature-low" size={25} color="#ff304f" />
@@ -50,7 +54,7 @@ const WeatherData = ({ data }) => {
             size={30}
             color="#ff304f"
           />
-          <Text style={styles.boxLabel}>Wind</Text>
+          <Text style={styles.boxLabel}>Wind Speed</Text>
           <Text style={styles.boxText}>{data.wind.speed} m/s</Text>
         </View>
       </ScrollView>

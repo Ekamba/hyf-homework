@@ -5,10 +5,11 @@ import {
   Alert,
   TouchableWithoutFeedback,
   Keyboard,
+  ScrollView,
 } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
 
-import { getWeather } from "../store/actions/weatherActions";
+import { getWeather } from "../redux/actions/weatherActions";
 import Form from "./Form";
 import Weather from "./Weather";
 
@@ -38,16 +39,18 @@ const App = () => {
   };
 
   return (
-    <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
-      <View style={styles.container}>
-        <Form
-          search={search}
-          onSetSearch={setSearch}
-          onSubmit={searchSubmitHandler}
-        />
-        <Weather loading={loading} data={data} error={error} />
-      </View>
-    </TouchableWithoutFeedback>
+    <ScrollView>
+      <TouchableWithoutFeedback onPress={() => Keyboard.dismiss()}>
+        <View style={styles.container}>
+          <Form
+            search={search}
+            onSetSearch={setSearch}
+            onSubmit={searchSubmitHandler}
+          />
+          <Weather loading={loading} data={data} error={error} />
+        </View>
+      </TouchableWithoutFeedback>
+    </ScrollView>
   );
 };
 
